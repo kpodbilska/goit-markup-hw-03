@@ -25,21 +25,25 @@ ul {
 
 .container {
   width: 1200px;
-  margin: 0px;
+  margin: 0px auto;
 }
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0px;
+}
+
+.head {
+  padding-bottom: 0px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ececec;
 }
 
 .header {
   display: flex;
   align-items: center;
   height: 80px;
-  padding: 0px;
-  border-bottom: 1px solid #ececec;
 }
 
 .nav {
@@ -210,12 +214,6 @@ ul {
   color: #757575;
 }
 
-.work {
-  left: 215px;
-  top: 969px;
-  margin: 0px;
-}
-
 .work-pictures {
   display: flex;
   justify-content: space-between;
@@ -235,8 +233,6 @@ ul {
 }
 
 .nasz-zespol {
-  background: #f5f4fa;
-  position: relative;
   text-align: center;
   margin-bottom: 50px;
   font-style: normal;
@@ -279,6 +275,7 @@ ul {
   display: flex;
   justify-content: center;
   padding-bottom: 14px;
+  box-shadow: 0px;
 }
 
 .button {
@@ -291,6 +288,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-color: #f5f4fa;
 }
 
 .button:hover {
@@ -377,9 +375,7 @@ ul {
 }
 
 .footer {
-  width: 1200px;
   height: 252px;
-  left: 0px;
   top: 1628px;
   background: #2f303a;
 }
