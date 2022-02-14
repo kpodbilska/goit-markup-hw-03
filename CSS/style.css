@@ -28,11 +28,12 @@ ul {
   margin: 0px auto;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .head {
+  padding-top: 94px;
   padding-bottom: 0px;
 }
 
@@ -134,6 +135,8 @@ ul {
 }
 
 .efektywne-rozwiazania-background {
+  padding-top: 94px;
+  padding-bottom: 94px;
   height: 600px;
   background: #2f303a;
 }
@@ -228,7 +231,14 @@ ul {
   line-height: 42px;
 }
 
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .zespol {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
@@ -320,6 +330,7 @@ ul {
 }
 
 .projects {
+  padding-bottom: 94px;
   padding-top: 34px;
 }
 
